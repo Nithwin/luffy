@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Babylonica&display=swap');
+
+home{
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+
+.babylonica-regular {
+  font-family: "Babylonica", cursive;
+  font-weight: 300;
+  font-style: normal;
+}
+
+
+::-webkit-scrollbar-track {
+  border-radius:100vh ;
+  background: transparent;
+}
+
+
+::-webkit-scrollbar-thumb {
+  border-radius: 20px;
+  background: linear-gradient(#fe0000, #f63be3, #9333ea);
+}
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
